@@ -14,7 +14,10 @@
     grid-template-columns: 1fr 8fr;
 }
 
-.sidebar > img {
-  justify-self: center;
-  align-self: center;
+.search-bar-container {
+    display: flex;
+}
+
+.nav-bar-container {
+    display: flex;
 }
