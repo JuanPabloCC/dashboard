@@ -1,0 +1,13 @@
+.main-container > div {
+    border: solid 1px red;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+.sidebar{
+    grid-row: 1 / 3 ;
+}
