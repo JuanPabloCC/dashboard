@@ -95,6 +95,7 @@ body {
 .project-card-icons {
     display: flex;
     justify-content: flex-end;
+    gap: calc(var(--main-gap));
 }
 
 .trending-card {
