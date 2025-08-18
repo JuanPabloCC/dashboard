@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 
 :root {
     --main-gap: 20px;
-    --main-font-size: 1.2rem;
+    --main-font-size: 1rem;
 }
 
 @font-face {
@@ -72,13 +72,14 @@ body {
 .sidebar{
     grid-row: 1 / 3;
     display: grid;
-    grid-template-columns: 1fr 6fr;
-    align-items: center;
+    grid-template-rows: 1fr 5fr 5fr;
+    border: 1px red solid;
 }
 
 .header {
     display: flex;
     flex-direction: column;
+    border: 1px red solid;
 }
 
 .search-bar-container {
@@ -118,6 +119,7 @@ body {
     grid-template-columns: 4fr 1fr;
     grid-template-rows: 1fr 1fr;
     column-gap: var(--main-gap);
+    border: 1px red solid;
 }
 
 .projects-container {
