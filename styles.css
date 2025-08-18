@@ -1,5 +1,6 @@
 :root {
     --main-gap: 20px;
+    --main-font-size: 1.2rem;
 }
 
 @font-face {
@@ -15,7 +16,7 @@ body {
     margin: auto 20px;
     font-family: 'Montserrat Regular','URW Gothic', sans-serif;
     font-weight: normal;
-    font-size: 1.2rem;
+    font-size: var(--main-font-size);
 }
 
 .main-container {
