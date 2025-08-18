@@ -2,8 +2,20 @@
     --main-gap: 20px;
 }
 
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url('assets/font-monserrat/Montserrat-Regular.woff2') format('woff2'),
+        url('assets/font-monserrat/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     margin: auto 20px;
+    font-family: 'Montserrat Regular','URW Gothic', sans-serif;
+    font-weight: normal;
+    font-size: 1.2rem;
 }
 
 .main-container {
