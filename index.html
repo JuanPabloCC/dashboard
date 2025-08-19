@@ -27,18 +27,18 @@
         <div class="header">
             <div class="search-bar-container">
                 <div class="search-bar">
-                    <img src="assets/search_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="Search Icon">
+                    <img src="assets/search_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="Search Icon" class="header-icon">
                     <input class="search-bar" type="text">
                 </div>
                 <div class="user-status">
-                    <img src="assets/notifications_active_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="Notificacion Icon">
-                    <img src="assets/meerkat.png" alt="Avatar Image" height="52px">
+                    <img src="assets/notifications_active_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="Notificacion Icon" class="header-icon">
+                    <img src="assets/meerkat.png" alt="Avatar Image">
                     <p>Alejandra Falcon</p>
                 </div>
             </div>
             <div class="nav-bar-container">
                 <div class="welcome-message">
-                    <img src="assets/meerkat.png" alt="Avatar Image" height="64px">
+                    <img src="assets/meerkat.png" alt="Avatar Image">
                     <p>Hi there,<br>Alejandra Falcon (@aleja_falcon)</p>
                 </div>
                 <button>New</button>
@@ -47,11 +47,13 @@
             </div>
         </div>
         <div class="dashboard">
-            <div class="projects-container">
-                <h2>Your Projects</h2>
+            
+                <h2 id="your-project-title">Your Projects</h2>
                 <div class="projects-grid">
                     <div class="project-card">
-                        <p>Super Cool Project</p>
+                        <h4>
+                            <p>Super Cool Project</p>
+                        </h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id justo nibh. Donec at blandit urna. Morbi pulvinar tellus sapien. Aliquam lobortis sagittis augue, ac eleifend nibh facilisis sit amet. </p>
                         <div class="project-card-icons">
                             <img src="assets/heart_plus_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="Heart Icon">
@@ -60,7 +62,9 @@
                         </div>
                     </div>
                     <div class="project-card">
-                        <p>Super Cool Project</p>
+                        <h4>
+                            <p>Super Cool Project</p>
+                        </h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id justo nibh. Donec at blandit urna. Morbi pulvinar tellus sapien. Aliquam lobortis sagittis augue, ac eleifend nibh facilisis sit amet. </p>
                         <div class="project-card-icons">
                             <img src="assets/heart_plus_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="Heart Icon">
@@ -69,7 +73,9 @@
                         </div>
                     </div>
                     <div class="project-card">
-                        <p>Super Cool Project</p>
+                        <h4>
+                            <p>Super Cool Project</p>
+                        </h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id justo nibh. Donec at blandit urna. Morbi pulvinar tellus sapien. Aliquam lobortis sagittis augue, ac eleifend nibh facilisis sit amet. </p>
                         <div class="project-card-icons">
                             <img src="assets/heart_plus_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="Heart Icon">
@@ -78,7 +84,9 @@
                         </div>
                     </div>
                     <div class="project-card">
-                        <p>Super Cool Project</p>
+                        <h4>
+                            <p>Super Cool Project</p>
+                        </h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id justo nibh. Donec at blandit urna. Morbi pulvinar tellus sapien. Aliquam lobortis sagittis augue, ac eleifend nibh facilisis sit amet. </p>
                         <div class="project-card-icons">
                             <img src="assets/heart_plus_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="Heart Icon">
@@ -87,7 +95,9 @@
                         </div>
                     </div>
                     <div class="project-card">
-                        <p>Super Cool Project</p>
+                        <h4>
+                            <p>Super Cool Project</p>
+                        </h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id justo nibh. Donec at blandit urna. Morbi pulvinar tellus sapien. Aliquam lobortis sagittis augue, ac eleifend nibh facilisis sit amet. </p>
                         <div class="project-card-icons">
                             <img src="assets/heart_plus_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="Heart Icon">
@@ -96,7 +106,9 @@
                         </div>
                     </div>
                     <div class="project-card">
-                        <p>Super Cool Project</p>
+                        <h4>
+                            <p>Super Cool Project</p>
+                        </h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id justo nibh. Donec at blandit urna. Morbi pulvinar tellus sapien. Aliquam lobortis sagittis augue, ac eleifend nibh facilisis sit amet. </p>
                         <div class="project-card-icons">
                             <img src="assets/heart_plus_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="Heart Icon">
@@ -105,45 +117,42 @@
                         </div>
                     </div>
                 </div>
+            <h2 id="announcement-title">Announcements</h2>
+            <div class="announcements-card">
+                <p>
+                    <h3>Site Maintenance</h3>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id justo nibh. 
+                </p>
+                <br>
+                <p>
+                    <h3>Community Share Day</h3>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id justo nibh. 
+                </p>
+                <br>
+                <p>
+                    <h3>Updated Privacy Policy</h3>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id justo nibh. 
+                </p>
             </div>
-            <div class="announcements">
-                <h2>Announcements</h2>
-                <div class="announcements-card">
-                    <p>
-                        <h3>Site Maintenance</h3>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id justo nibh. 
-                    </p>
-                    <p>
-                        <h3>Community Share Day</h3>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id justo nibh. 
-                    </p>
-                    <p>
-                        <h3>Updated Privacy Policy</h3>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id justo nibh. 
-                    </p>
+            <h2 id="trending-title">Trending</h2>
+            <div class="trending-card">
+                <div class="trending-profile">
+                    <img src="assets/bear.png" alt="Bear Icon">
+                    <p><strong>@Veronica_falcon</strong><br>Yaoi Lover</p>
+                </div>
+                <div class="trending-profile">
+                    <img src="assets/chicken.png" alt="Chicken Icon">
+                    <p><strong>@la_mami</strong><br>Coffee Lover</p>
+                </div>
+                <div class="trending-profile">
+                    <img src="assets/panda.png" alt="Panda Icon">
+                    <p><strong>@Veronica_falcon</strong><br>Yaoi Lover</p>
+                </div>
+                <div class="trending-profile">
+                    <img src="assets/rabbit.png" alt="Rabbit Icon">
+                    <p><strong>@Veronica_falcon</strong><br>Yaoi Lover</p>
                 </div>
             </div>
-            <div class="trending">
-                <h2>Trending</h2>
-                <div class="trending-card">
-                    <div class="trending-profile">
-                        <img src="assets/bear.png" alt="Bear Icon" height="52px">
-                         <p><strong>@Veronica_falcon</strong><br>Yaoi Lover</p>
-                    </div>
-                    <div class="trending-profile">
-                        <img src="assets/chicken.png" alt="Chicken Icon" height="52px">
-                        <p><strong>@la_mami</strong><br>Coffee Lover</p>
-                    </div>
-                    <div class="trending-profile">
-                        <img src="assets/panda.png" alt="Panda Icon" height="52px">
-                        <p><strong>@Veronica_falcon</strong><br>Yaoi Lover</p>
-                    </div>
-                    <div class="trending-profile">
-                        <img src="assets/rabbit.png" alt="Rabbit Icon" height="52px">
-                        <p><strong>@Veronica_falcon</strong><br>Yaoi Lover</p>
-                    </div>
-            </div>
-        </div>
     </div>
 </body>
 </html>
